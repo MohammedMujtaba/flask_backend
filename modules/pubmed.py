@@ -11,7 +11,7 @@ import requests
 from mongoengine import connect
 from mongoengine.errors import NotUniqueError
 
-nltk.download("punkt")
+nltk.download("punkt", quite=True)
 
 """### Load Model for Sentiment Analysis"""
 
